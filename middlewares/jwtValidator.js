@@ -22,7 +22,6 @@ const jwtValidator = ( req, res = response, next ) => {
         });
     }
 
-    
     next();
 }
 

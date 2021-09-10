@@ -21,8 +21,6 @@ const EventSchema = Schema({
         ref: 'UserModel',
         required: true
     }
-
-
 });
 
 EventSchema.method('toJSON', function() {
